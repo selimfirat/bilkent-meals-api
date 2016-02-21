@@ -24,8 +24,16 @@
         <processorPath useClasspath="true" />
         <module name="BilkentMealsAPI" />
       </profile>
+      <profile default="false" name="Annotation profile for bilkent-meals-api" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="bilkent-meals-api" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
+      <module name="bilkent-meals-api" target="1.8" />
       <module name="BilkentMealsAPI" target="1.8" />
     </bytecodeTargetLevel>
   </component>

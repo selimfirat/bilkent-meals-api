@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/BilkentMealsAPI.iml" filepath="$PROJECT_DIR$/BilkentMealsAPI.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bilkent-meals-api.iml" filepath="$PROJECT_DIR$/bilkent-meals-api.iml" />
     </modules>
   </component>
 </project>
