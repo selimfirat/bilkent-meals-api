@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="org.apache.clerezza.ext:org.json.simple:0.4" type="repository">
+    <properties maven-id="org.apache.clerezza.ext:org.json.simple:0.4" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/clerezza/ext/org.json.simple/0.4/org.json.simple-0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/googlecode/json-simple/json-simple/1.1/json-simple-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
