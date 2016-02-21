@@ -2,6 +2,8 @@
 An unoffical meals API for Bilkent University Bilintur Catering Centre. Returns JSON data of current week's meals.<br />
 Gets data from: http://kafemud.bilkent.edu.tr/monu_eng.html
 
+[![Heroku Status](https://heroku-badge.herokuapp.com/?app=meals-api&style=flat)](https://meals-api.herokuapp.com/)
+[![Build Status](https://api.travis-ci.org/mrsfy/BilkentMealsAPI.svg)](https://travis-ci.org/mrsfy/BilkentMealsAPI)
 
 ## Endpoints
 ##### /
@@ -112,3 +114,21 @@ Returns whole week's meals
     }
 ]
 ```
+
+## Dependencies
+- [jsoup](https://github.com/jhy/jsoup) - Java HTML Parser
+- [spark](https://github.com/perwendel/spark) - Simple Node.JS like web framework
+- [gson](https://github.com/google/gson) - A Java serialization library that can convert Java Objects into JSON and back
+
+### Contributing
+Open a pull request following [Aaron's git workflow](https://github.com/asmeurer/git-workflow). Do not hesitate to contact me.
+
+
+### Contributors
+* [Selim Fırat Yılmaz](https://github.com/mrsfy)<br />
+Feel free to be here -_-
+
+## License
+This repository released under MIT License.
+Copyright (c) 2016 Selim Fırat Yılmaz
+http://opensource.org/licenses/MIT
