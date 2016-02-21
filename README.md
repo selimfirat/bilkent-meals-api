@@ -1,11 +1,12 @@
 # BilkentMealsAPI
-An unoffical meals API for Bilkent University Bilintur Catering Centre. Returns JSON data of current week's meals.__
+An unoffical meals API for Bilkent University Bilintur Catering Centre. Returns JSON data of current week's meals.<br />
 Gets data from: http://kafemud.bilkent.edu.tr/monu_eng.html
 
 
 ## Endpoints
 ##### /
 Returns whole week's meals
+* https://meals-api.herokuapp.com/
 
 ### Example JSON Output
 ```json
