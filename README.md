@@ -130,5 +130,7 @@ Feel free to be here -_-
 
 ## License
 This repository released under MIT License.
+
 Copyright (c) 2016 Selim Fırat Yılmaz
+
 http://opensource.org/licenses/MIT
