@@ -10,6 +10,10 @@ Gets data from: http://kafemud.bilkent.edu.tr/monu_eng.html
 Returns whole week's meals
 * https://meals-api.herokuapp.com/
 
+##### /today
+Returns whole week's meals
+* https://meals-api.herokuapp.com/today
+
 ### Example JSON Output
 ```json
 [

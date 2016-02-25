@@ -2,8 +2,9 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public class MealFactory {
 
@@ -21,8 +22,6 @@ public class MealFactory {
             // Scrape Date
             String date = fixLunchTds.get(0).text().split(" ")[0];
             meal.setDate(date);
-          //  meal.setLunchHTML(meals.getFix().get(i).html());
-           // meal.setDinnerHTML(meals.getFix().get(i + 1).html());
 
 
             // Scrape Fix Lunch Meals
@@ -42,6 +41,18 @@ public class MealFactory {
             mealList.add(meal);
         }
     }
+
+    public Meal getMealOfToday(){
+        Date now = new Date();
+        String today = new SimpleDateFormat("dd.MM.yyyy").format(now);
+        for (Meal meal : getMealList()){
+            if (meal.getDate().equals(today)){
+                return meal;
+            }
+        }
+        return null;
+    }
+
     public List<Meal> getMealList(){
         return mealList;
     }
@@ -78,11 +89,5 @@ public class MealFactory {
         }
         return result;
     }
-/*
-    private String regexp(String str, String patternString){
-        Pattern pattern = Pattern.compile(patternString);
-        Matcher matcher = pattern.matcher(str);
-        return matcher.group();
-    }*/
 }
 
