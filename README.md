@@ -11,7 +11,7 @@ Returns whole week's meals
 * https://meals-api.herokuapp.com/
 
 ##### /today
-Returns whole week's meals
+Returns today's meals
 * https://meals-api.herokuapp.com/today
 
 ### Example JSON Output
