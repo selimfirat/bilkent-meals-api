@@ -61,17 +61,18 @@ public class MealFactory {
         String[] lines = tds.toString().replaceAll("&nbsp;", "").split("<br>");
         for (int a = 1; a < lines.length; a++){
             String line = Jsoup.parse(lines[a]).text();
-
+            System.out.println(line);
             // String arrays consist of foods by 2 language
             if (line.contains("veya / or") && lines.length == 5){
-                String[] secondLine = line.split("veya / or");
 
+                String[] secondLine = line.replace("veya / or veya / or", "veya / or").split("veya / or");
                 String[] secondLineSplitted0 = secondLine[0].split("/");
                 String[] food0 = new String[]{
                         secondLineSplitted0[0].trim(),
                         secondLineSplitted0[1].trim()
                 };
                 String[] secondLineSplitted1 = secondLine[1].split("/");
+                System.out.println(secondLineSplitted1[1]);
                 String[] food1 = new String[]{
                         secondLineSplitted1[0].trim(),
                         secondLineSplitted1[1].trim()
